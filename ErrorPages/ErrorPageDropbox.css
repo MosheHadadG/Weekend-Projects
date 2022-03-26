@@ -1,0 +1,63 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #fff;
+    color: #444;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+figure {
+    margin-top: 40px;
+}
+
+figure img {
+    height: 300px;
+    width: 300px;
+}
+
+.ErrorBox {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.ErrorBox h1 {
+    color: #222;
+    font-size: 38px;
+    font-weight: lighter;
+    margin: 10px 0;
+    line-height: 47px;
+}
+
+.ErrorBoxLinks {
+    margin-top: 48px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px
+}
+
+.ErrorBoxLinks a {
+    color: #005ff8;
+    text-decoration: none;
+}
+
+.ErrorBoxLinks ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.ErrorBoxLinks ul li {
+    margin-top: 10px;
+}
+
+.ErrorBoxLinks ul li a:hover {
+    text-decoration: underline;
+}

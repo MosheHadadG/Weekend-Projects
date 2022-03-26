@@ -1,0 +1,152 @@
+body {
+    font-family: "Futura PT Medium";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 0em;
+    line-height: 1.7em;
+    text-transform: none;
+    color: rgba(29, 29, 29, .7);
+}
+
+.container {
+    width: 1200px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1200px;
+    min-height: 80px;
+}
+
+header .Top {
+    width: 1200px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.logo img {
+    max-width: 200px;
+    float: left;
+}
+
+.Menu {
+    float: right;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 1em;
+    font-family: "Brandon Grotesque Bold"
+}
+
+.Menu ul {
+    list-style-type: none;
+}
+
+.Menu ul li {
+    float: right;
+    margin-left: 25px;
+    color: #1d1d1d;
+}
+
+a {
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(29, 29, 29, .4);
+}
+
+main {
+    width: 1200px;
+    min-height: 100px;
+    margin-top: 120px;
+}
+
+main .LeftSide img {
+    float: left;
+    width: 400px;
+}
+
+main .RightSide {
+    margin-left: 40px;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+main .RightSide h1 {
+    font-family: "Brandon Grotesque Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 51px;
+    letter-spacing: .29em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #1d1d1d;
+}
+
+main .RightSide p {
+    margin-top: -80px;
+}
+
+footer {
+    width: 1200px;
+    min-height: 100px;
+    clear: left;
+}
+
+footer .icons {
+    width: 150px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 170px;
+}
+
+footer .icons img {
+    float: left;
+    width: 22px;
+    margin-left: 15px;
+}
+
+footer .links-content {
+    width: 965px;
+    font-family: "brandon-grotesque";
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .29em;
+    line-height: 1.7em;
+    margin-left: 100px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.links-content ul {
+    list-style-type: none;
+}
+
+.links-content ul li {
+    margin-left: 10px;
+    color: #1d1d1d;
+}
+
+.links-content ul li a {
+    text-decoration: underline;
+    text-decoration-color: rgba(29, 29, 29, .3);
+}
+
+footer .Copyright {
+    width: 650px;
+    margin-left: 450px;
+    margin-top: 20px;
+    font-family: "brandon-grotesque";
+    font-size: 16px;
+    letter-spacing: .29em;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #1d1d1d;
+}
